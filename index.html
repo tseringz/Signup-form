@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Sign Up Form</title>
+    <link rel="stylesheet" href="../Signup-form/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,
+            700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <section>
+
+        <div class="c-container">
+      
+               <div class="c-container__wrapper ">
+                   <nav>
+                       <a href=""><div class = "brand">
+                           <h3>Gocrypto</h3>
+                       </div></a>
+                   </nav>
+      
+                   <h4>Buy me a crypto and I will <br>
+                       buy you a donut.
+                   </h4>
+                   <img src="../Signup-form/assets/space-person-in-process.png" alt="space person in process">
+                               
+               </div>
+               <div class="c-container__wrapper">
+                <p>Already a member? <a href="http://www.google.com">Sign in</a></p>
+                <div class="form-wrapper">
+                        <h5>Sign up to Gocrypto</h5>
+                        <div class="social-media-sign-up">
+
+                            <button id="google" type="button">
+                                Sign up with google
+                            </button>
+                            <button id="twitter" type="button"><img src="../Signup-form/assets/twitter-icon-drak-gray.svg" alt="twitter icon" class="twitter"></button>
+                            <button id="facebook" type="button"><img src="../Signup-form/assets/facebook-icon-dark-grey.svg" alt="facebook icon" class="facebook"></button>
+
+                        </div>
+                <div class="divider-wrapper">   
+                     <div class="divider"></div><h6>Or</h6>
+                     <div class="divider"></div>
+                </div>
+                    <div class="name-wrapper">
+
+                        <div class="full-name">
+                            <label for="full name">Full Name</label><br>
+                            <input type="text" name="Full name" id="name" required>
+                        </div>
+                        
+                        <div class="username">
+                            <label for="username">Username</label><br>
+                           <input type="text" name="username" id="username" required>
+                        </div>
+
+                    </div>
+                
+                        <form action="#" method="get">
+                            <label for="email">Email Address</label> <br>
+                            <input type="email" name="Email" id="email" required>
+                            <label for="password">Password</label> <br>
+                            <input type="password" name="password" pattern = "(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" id="password" 
+                                   title = "The password should include UpperCase, LowerCase, Number/SpecialChar and minimum 8 Characters" minlength = "3" maxlength = "8" placeholder="6+Characters" required>
+                            <label for="confirm password">Confrim Password</label><br>
+                            <input type="password" name="confirm password" pattern = "(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" 
+                                    title = "The password doesn't matched" id="confirm password" minlength = "3" maxlength = "8" placeholder="Reenter Password" required>
+                            <input type="checkbox" name="terms and policy" id="terms" required> 
+                            <p>Creating an account means you are okay with our <a href="http://www.google.com">Terms of service</a><br>
+                               <a href="http://www.google.com">Private Policy</a>, and our default 
+                               <a href="http://www.google.com">Notification settings.</a> <br>Illustration by 
+                               <a href="https://icons8.com/illustrations/author/TOD5LGFFSfDh">Anna Yashina</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+                            </p> 
+                            <button type="submit" class="submit">Create account</button>
+                    </form>
+                </div>
+
+               </div>
+               
+        </div>
+      
+    </section>
+
+</body>
+</html>
