@@ -18,3 +18,8 @@ Implematation of Sign Up form from The Odin Project [curriculum](https://www.the
 * Learned the proper usage of CSS units like em and rem
 * Improve the knowledge of CSS properties, function and selectors
 * Learned built in html validation and custom validation
+
+## Link
+
+[Live Demo of the Sign Up Form](https://tseringz.github.io/Signup-form/)
+<img width="1249" alt="Screenshot 2023-04-10 at 8 43 12 PM" src="https://user-images.githubusercontent.com/15078245/230931901-e97aa96e-1876-439b-96ac-0301df1a9766.png">
